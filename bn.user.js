@@ -13,4 +13,4 @@
 // @require      http://coffeescript.org/extras/coffee-script.js
 // ==/UserScript==
 
-print("Hello Test!");
+console.log("Hello Test!");

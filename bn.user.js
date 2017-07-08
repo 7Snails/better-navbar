@@ -2,14 +2,13 @@
 // @name         Better Navbar for Scratch
 // @namespace    http://scratch.mit.edu/users/7Snails/
 // @version      0.0.1
-// @description  Makes the Scratch Navigation bar mroe user friendly
+// @description  Makes the Scratch Navigation bar more user friendly
 // @author       @7Snails
 // @match        http://scratch.mit.edu/*
 // @match        https://scratch.mit.edu/*
 // @icon         http://tampermonkey.net/favicon.ico
 // @grant        none
 // @run-at       document-end
-// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js
 // ==/UserScript==
 
 // Create the .remove() function
@@ -41,5 +40,5 @@ discussSpan.appendChild(discussSpanText);
 discussA.appendChild(discussSpan);
 discussShell.appendChild(discussA);
 
-// Insert the Discuss button and Wiki button
+// Insert the Discuss button
 list.insertBefore(discussShell, list.childNodes[3]);
